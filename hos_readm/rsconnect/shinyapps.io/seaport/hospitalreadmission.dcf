@@ -1,0 +1,13 @@
+name: hospitalreadmission
+title: hospitalreadmission
+username:
+account: seaport
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 626780
+bundleId: 1804635
+url: https://seaport.shinyapps.io/hospitalreadmission/
+when: 1547035470.91704
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|diabetic_cleaneddata.csv|multinominal_logistic_reg.R|Test_data.csv|Test_data.xlsx|train.csv

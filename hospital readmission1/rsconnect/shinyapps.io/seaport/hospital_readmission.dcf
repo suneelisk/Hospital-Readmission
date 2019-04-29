@@ -1,0 +1,13 @@
+name: hospital_readmission
+title: hospital_readmission
+username:
+account: seaport
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 626007
+bundleId: 1794679
+url: https://seaport.shinyapps.io/hospital_readmission/
+when: 1546515948.69723
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: classfication tree.R|data_pred.csv|dataset_diabetes.zip|diabetic_data.csv|diabetic_data_NA.csv|IDs_mapping.csv|knn.R|model.rda|modelknn.rda|sql.R|sql2.R|test.xlsx|excel worksheets for store in ms access
