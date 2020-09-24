@@ -16,7 +16,7 @@ my_password <- "readmission"
 ui <- dashboardPage(skin='green',
                     
                     dashboardHeader(title="Prediction Hospital Readmission",titleWidth = 400,dropdownMenu(type="messages",
-                                                                                                                  messageItem(from="SeaportAI",message="WELCOME TO SEAPORTAI ANALYTICS"))
+                                                                                                                  messageItem(from="DFSDD",message="WELCOME TO ISK ANALYTICS"))
                                     
                     ),
                     
@@ -27,7 +27,7 @@ ui <- dashboardPage(skin='green',
                       actionButton("myuser","Logout",icon=icon("user")),br(),
                       tags$div(class = "header", checked = NA,
                                tags$tbody("Need Help ?"),br(),
-                               tags$a(href = "http://seaportai.com/contact-us/", "Contact Us...")
+                               tags$a(href = "####", "Contact Us...")
                       )
                     ),
                     dashboardBody(
@@ -74,7 +74,7 @@ server = function(input, output,session) {
   # Return the UI for a modal dialog with data selection input. If 'failed' 
   # is TRUE, then display a message that the previous value was invalid.
   dataModal <- function(failed = FALSE) {
-    modalDialog(title = "Welcome to SeaportAI...",
+    modalDialog(title = "Welcome to SASA...",
                 textInput("username", "Username:"),
                 passwordInput("password", "Password:"),
                 footer = tagList(
@@ -122,7 +122,7 @@ server = function(input, output,session) {
     modalDialog(fade = FALSE,title = tagList(h3("Thank You !!")),footer = NULL,
                 tags$div(class = "header", checked = NA,
                          tags$h4("Visit us for more..."),
-                         tags$a(href = "http://seaportai.com/", "www.seaportai.com")
+                         tags$a(href = "##", "####")
                 )
     )
   }
